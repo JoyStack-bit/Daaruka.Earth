@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Generated RAG database
+data/processed/chroma_db/
+
+# VS Code
+.vscode/
+
+data/documents/*.pdf
